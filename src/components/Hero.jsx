@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
-import { MapPin,Download,Github, Linkedin, Mail } from 'lucide-react';
+import { MapPin, Download } from 'lucide-react';
+import { FaGithub,FaLinkedin} from 'react-icons/fa';
+import { Mail } from 'lucide-react';
 
 
 
@@ -12,16 +14,19 @@ function Hero(){
     <div className="max-w-[1280px] mx-auto px-6">
     <Navbar/>
 
-     <div className="middle content">
+     <div className=" flex flex-row gap-4 mt-10 ">
 
-        <div className='left-content'>
+        <div className='bg-white'>
 
         <div className=" text-2xl  font-mono text-blue-500 dark:text-sky-400 ">Hey, I'm</div>
 
         <h2  className ="text-white text-7xl font-bold">Tshepho  Maimela </h2>
 
-        <h3 className="text-white text-3xl">Software Developer</h3>
-        <p className=" text-lg font-mono  text-blue-500 dark:text-sky-400  text-left">I turn ideas into code, solve real-world problems, and build software that makes a difference. I’m constantly learning, exploring new technologies, and challenging myself to create practical, impactful solutions.</p>
+        <h3 className="text-white text-3xl max-w-2xl">Software Developer</h3>
+            <p className=" text-lg font-mono  text-blue-500 dark:text-sky-400  text-left">I turn ideas into code, solve real-world problems
+            , and build software that makes a difference.I'm learning constantly learning, exploring new technologies,
+             and challenging myself to create practical, impactful solutions.
+             </p>
 
         <div className="flex items-center gap-2 text-white">
                 <MapPin size={18} className="text-blue-500" />
@@ -37,36 +42,39 @@ function Hero(){
 
         <p className=''>Let's connect!</p>
 
-<div className="flex gap-5">
-  {/* GitHub */}
-  <a
-    href="https://github.com/Mamoraro"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-white hover:text-green-500 transition"
-  >
-    <Github size={22} />
-  </a>
+                                                <div className="flex gap-5">
+                                                {/* GitHub */}
+                                                <a
+                                                    href="https://github.com/MAMORARO"
+                                                    className="text-white hover:text-blue-500 transition"
+                                                >
+                                                    <FaGithub size={22} />
+                                                </a>
 
-  {/* LinkedIn */}
-  <a
-    href="https://www.linkedin.com/in/Tshepho-Maimela-1a0b4b1a2/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-white hover:text-green-500 transition"
-  >
-    <Linkedin size={22} />
-  </a>
+                                                {/* LinkedIn */}
+                                                <a
+                                                    href="https://www.linkedin.com/in/Tshepho-Maimela/" 
+                                                    className="text-white hover:text-blue-500 transition"
+                                                >
+                                                    <FaLinkedin size={22} />
+                                                </a>
 
-  {/* Email */}
-  <a
-    href="mailto:4323138myuwc.ac.za"
-    className="text-white hover:text-green-500 transition"
-  >
-    <Mail size={22} />
-  </a>
-</div>
+                                                {/* Email */}
+                                                <a
+                                                    href="mailto:4323138@myuwc.ac.za"
+                                                    className="text-white hover:text-blue-500 transition"
+                                                >
+                                                    <Mail size={22} />
+                                                </a>
+                                                </div>
                 
+        </div>
+
+        <div  className ="bg-blue-500 ">
+
+
+        <p>lorem ipsum dolor sit ametsdffsdfsjfgjfghdskadgo8weuefgddqwdjhiugfhkfdfgishfdekfdbvzncvzncbcnc</p>
+
         </div>
         
         </div>   
