@@ -15,7 +15,7 @@ function Hero() {
                 <div className="max-w-[1280px] mx-auto px-6">
                     <Navbar />
 
-                    <div className=" flex flex-row gap-4 mt-30  ">
+                    <div className=" flex flex-row gap-4 mt-45  ">
 
                         <div className='  '>
 
