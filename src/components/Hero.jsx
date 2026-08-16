@@ -11,7 +11,7 @@ function Hero() {
 
     return (
         <>
-            <section className="bg-bg  ">
+            <section className="bg-bg mb-25 ">
                 <div className="max-w-[1280px] mx-auto px-6">
                     <Navbar />
 
